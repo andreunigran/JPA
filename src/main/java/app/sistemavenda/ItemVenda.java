@@ -24,5 +24,22 @@ public class ItemVenda implements Serializable{
       
     @ManyToOne
     private Venda venda;  
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public Venda getVenda() {
+        return venda;
+    }
+
+    public void setVenda(Venda venda) {
+        this.venda = venda;
+    }
       
+    
 }
